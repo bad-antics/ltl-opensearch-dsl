@@ -1,0 +1,15 @@
+// ltl-opensearch-dsl/main.ltl
+//
+// OpenSearch/Elasticsearch query-DSL builder.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-opensearch-dsl v0.1.0")
+    io::println("OpenSearch/Elasticsearch query-DSL builder.")
+    0
+}
